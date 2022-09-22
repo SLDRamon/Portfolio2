@@ -22,6 +22,8 @@ html, body{
     --color-gray4: #454e56;
     --color-gray5: #2a2e35;
     --color-gray6: #12181b;
+    --color-primary2: #e91e63;
+    --color-primary3: #2196f3;
 }
 
 /* New navbar*/
@@ -220,6 +222,7 @@ h2{
     
 }
 
+/*Blink Cursor*/
 .cursor{
     display: inline-block;
     width: 2px;
@@ -441,7 +444,7 @@ h2{
 
 /*First-Container*/
 
-.first-text{
+.texts{
     font-family: 'Bitter', serif;
     font-size: 1rem;
     margin: 0;
@@ -451,8 +454,8 @@ h2{
     color: white;
 }
 
-/*Not Done Yet*/
-.oval{
+/*Progress-Bars*/
+.progress-bar{
     border-radius: 30px;
     background-color: var(--color-gray0);
     flex-direction: column;
@@ -461,36 +464,81 @@ h2{
     position: relative;
 }
 
-.oval span{
+.progress-bar div{
     border-radius: 30px;
-    background-color: var(--color-white);
-    width: 90%;
+    background-color: var(--color-tertiary);
+    width: 0%;
     height: 1rem;
     position: relative;
-    display: block;
-    text-align: right;
 }
 
-.progress span {
-    background-color: var(--color-tertiary);
+.progress-bar span{
+    float: right;
+    margin-top: -7px;
+    font-size: 1rem;
+    margin-right: 3px;
+    position: relative;
 }
 
-.progress2 span {
-    background-color: var(--color-tertiary);
+.HTML5{
+    animation: HTML5 1s linear forwards;
 }
 
-.progress3 span {
-    background-color: var(--color-tertiary);
+.CSS{
+    animation: CSS 1s linear forwards;
 }
 
-.progress4 span {
-    background-color: var(--color-tertiary);
+.JavaScript{
+    animation: JavaScript 1s linear forwards;
 }
 
-.progress5 span {
-    background-color: var(--color-tertiary);
+.JQuery{
+    animation: JQuery 1s linear forwards;
 }
 
+.Photoshop{
+    animation: Photoshop 1s linear forwards;
+}
+
+.Canva{
+    animation: Canva 1s linear forwards;
+}
+
+@keyframes HTML5 {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes CSS {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes JavaScript {
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes JQuery {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes Photoshop {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes Canva {
+    100% {
+        width: 90%;
+    }
+}
 
 /*Second-Contianer*/
 .second-text{
