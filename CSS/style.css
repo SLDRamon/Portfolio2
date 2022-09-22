@@ -216,10 +216,26 @@ h2{
 }
 
 .name{
-    color: green;
+    color: var(--color-tertiary)
     
 }
 
+.cursor{
+    display: inline-block;
+    width: 2px;
+    background-color: var(--color-white);
+    animation: blink 1s infinite;
+    margin-left: 0.1rem;
+}
+
+
+@keyframes blink {
+    0% {background-color: var(--color-white); }
+    49% {background-color: var(--color-white); }
+    50% {background-color: transparent; }
+    99% {background-color: transparent; }
+    100% {background-color: var(--color-white); }
+}
 
 /*Indipendent Component*/
 .btn-con{
