@@ -475,6 +475,7 @@ h2{
     background-color: var(--color-tertiary);
 }
 
+
 /*Second-Contianer*/
 .second-text{
     font-family: 'Bitter', serif;
@@ -576,6 +577,33 @@ h2{
 }
 
 .oval5 span{
+    border-radius: 30px;
+    background-color: var(--color-tertiary);
+    width: 70%;
+    height: 1rem;
+    position: relative;
+    display: flex;
+}
+
+/*sixth-Container*/
+.sixth-text{
+    font-family: 'Bitter', serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+
+}
+.oval6{
+    border-radius: 30px;
+    background-color: var(--color-gray0);
+    flex-direction: column;
+    width: 50%;
+    height: 1rem;
+}
+
+.oval6 span{
     border-radius: 30px;
     background-color: var(--color-tertiary);
     width: 70%;
