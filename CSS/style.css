@@ -33,7 +33,6 @@ html, body{
     align-items: center;
     background: var(--color-gray5);
     color: var(--color-white);
-    top: 0;
 }
 
 .brand-title{
@@ -47,10 +46,6 @@ html, body{
     padding: 0;
     left: 10px;
     top: 0;
-}
-
-.navbar-links{
-    float: right;
 }
 
 .navbar-links ul{
@@ -132,7 +127,9 @@ html, body{
     background-image: linear-gradient(to right, rgba(128, 128, 128, 0.623), rgb(142, 213, 235), rgba(240, 83, 169, 0.767));
     position: relative;
 }
-
+.header{
+    padding: 10rem;
+}
 h1{
     position: relative;
     text-align: center;
