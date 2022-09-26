@@ -917,7 +917,8 @@ h2{
     }
 
     .left-header4{
-        padding: 1rem;
+        padding: 1rem 4rem;
+        margin-left: 0px;
     }
 
     .main-btn2{
