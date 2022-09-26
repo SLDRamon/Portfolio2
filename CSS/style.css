@@ -32,7 +32,8 @@ html, body{
     justify-content: space-between;
     align-items: center;
     background: var(--color-gray5);
-    color: var(--color-white)
+    color: var(--color-white);
+    top: 0;
 }
 
 .brand-title{
@@ -45,6 +46,11 @@ html, body{
     margin: 0;
     padding: 0;
     left: 10px;
+    top: 0;
+}
+
+.navbar-links{
+    float: right;
 }
 
 .navbar-links ul{
@@ -64,8 +70,8 @@ html, body{
     display: block;
 }
 
-.navbar-links li:hover {
-    background-color: #555;
+.navbar-links li a:hover{
+    color: var(--color-tertiary);
 }
 
 .toggle-button {
