@@ -28,7 +28,7 @@ html, body{
 
 /* New navbar*/
 .navbar{
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--color-gray5);
