@@ -162,6 +162,7 @@ h2{
     position: relative;
     bottom: 0px;
 }
+
  /*Header-content*/
 .header-content{
     display: grid;
@@ -253,7 +254,7 @@ h2{
     color: inherit;
     font-weight: 600;
     position: relative;
-    border: 1px solid green;
+    border: 1px solid var(--color-tertiary);
     display: flex;
     align-self: flex-start;
     align-items: center;
@@ -267,7 +268,7 @@ h2{
 }
 
 .btn-icon{
-    background-color: green;
+    background-color: var(--color-tertiary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,8 +445,6 @@ h2{
     line-height: 2rem;
 
 }
-
-/*First-Container*/
 
 .texts{
     font-family: 'Bitter', serif;
